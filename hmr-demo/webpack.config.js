@@ -19,5 +19,13 @@ module.exports = {
     ],
     devServer: {
         hot: true
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
+            }
+        ]
     }
 }

@@ -1,5 +1,5 @@
 import component from './component';
-// import style from './style.css';
+import './style.css';
 
 let demoComponent = component();
 document.body.appendChild(demoComponent);
