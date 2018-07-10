@@ -1,19 +1,16 @@
 {
-  "name": "hmr-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --env development"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^1.0.0",
-    "html-webpack-plugin": "^2.28.0",
-    "style-loader": "^0.21.0",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
-  }
+    "name": "hmr-demo",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "webpack-dev-server"
+    },
+    "keywords": ["webpack", "HMR"],
+    "author": "daiyy2009",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^1.0.0",
+        "style-loader": "^0.21.0",
+        "webpack": "^2.2.1",
+        "webpack-dev-server": "^2.4.1"
+    }
 }

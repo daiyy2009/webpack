@@ -1,6 +1,6 @@
 export default function () {
     var element = document.createElement('h1');
-    element.innerHTML = 'Hello World';
+    element.innerHTML = 'Hello JavaScript';
     
     return element;
 }
